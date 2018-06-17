@@ -1,0 +1,15 @@
+{
+  "name":         "TagDB",
+  "version":      "0.1",
+  "description":  "Binding for tagdb - a tagging database usefull for flickr-like tag searches.",
+  "author":       "Steve Dekorte",
+  "website":      "http://TagDB-project.org/",
+  "readme":       "README.md",
+  "protos":       ["TagDB"],
+  "dependencies": {
+    "libs":     ["tagdb", "tokyocabinet"],
+    "headers":  [],
+    "protos":   [],
+    "packages": ["https://github.com/IoLanguage/TokyoCabinet.git"]
+  }
+}
